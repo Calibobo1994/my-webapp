@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
   res.end(JSON.stringify({
     status: "success",
     message: "HTTP Application Running on Azure ACI",
-    version: "1.0.2"
+    version: "1.0.3"
   }));
 });
 
